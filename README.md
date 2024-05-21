@@ -1,6 +1,6 @@
 # programming-the-multiverse
 
-Code repo for my blog series, "Programming the Multiverse"
+Code repo for my blog series, "[Programming the Multiverse](https://erica.works/programming-the-multiverse-part-1/)"
 
 ## Setup
 
