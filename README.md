@@ -22,3 +22,25 @@ pyenv install
 pip install poetry
 poetry install
 ```
+
+### Visual Studio
+
+If you'd like to run the jupyter notebooks in Visual Studio, first install the Jupyter Notebook renderer extension.
+
+When you ran `poetry install` above, it tells you it created a virtual environment, similar to:
+
+```
+Creating virtualenv programming-the-multiverse-XzkVdwHA-py3.12 in /Users/you/Library/Caches/pypoetry/virtualenvs
+```
+
+Next, open the `.ipynb` file you want to run. In the upper right part of the window there's an option to select a python environment. Click it, then you get a prompt to "change kernel for ..."
+
+Select the option "select another kernel"
+
+Then select "Python environments" and "Create Python Environment"
+
+Next select "Venv" and use the path noted above as a prefix, but append the full path to the python executable, for example:
+
+`/Users/you/Library/Caches/pypoetry/virtualenvs/programming-the-multiverse-XzkVdwHA-py3.12/bin/python`
+
+And you're all set!
